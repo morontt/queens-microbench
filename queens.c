@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <time.h>
+#include <math.h>
 
-#define SIZE 8
+#define SIZE 14
+#define ITERATIONS 10
 
 int pos[SIZE];
 int used[SIZE];
@@ -30,7 +32,7 @@ int down(int line)
                 if (b == 0) {
                     pos[line] = j;
                     used[j] = 1;
-                    s = s + down(next);
+                    s += down(next);
                     used[j] = 0;
                 }
             }
@@ -41,13 +43,10 @@ int down(int line)
     return r;
 }
 
-int main()
+long iteration()
 {
     int i, half;
     long x = 0;
-    double start, end;
-
-    start = clock();
 
     for (i = 0; i < SIZE; i++) {
         used[i] = 0;
@@ -59,7 +58,7 @@ int main()
     for (i = 0; i < half; i++) {
         pos[0] = i;
         used[i] = 1;
-        x = x + down(1);
+        x += down(1);
         used[i] = 0;
     }
 
@@ -68,11 +67,38 @@ int main()
     if (SIZE % 2 == 1) {
         pos[0] = half;
         used[half] = 1;
-        x = x + down(1);
+        x += down(1);
     }
 
-    end = clock();
+    return x;
+}
 
-    printf("size:\t%d\nresult:\t%ld\ntime:\t%.4lf\n", SIZE, x, (end - start) / CLOCKS_PER_SEC);
+int main()
+{
+    int i;
+    long x;
+    double start, end, dev = 0.0, avg = 0.0, res[ITERATIONS];
+
+    for (i = 0; i < ITERATIONS; i++) {
+        start = clock();
+        x = iteration();
+        end = clock();
+
+        res[i] = (end - start) / CLOCKS_PER_SEC;
+        avg += res[i];
+    }
+
+    avg = avg / ITERATIONS;
+
+    for (i = 0; i < ITERATIONS; i++) {
+        dev += (avg - res[i]) * (avg - res[i]);
+    }
+
+    dev /= (ITERATIONS - 1);
+
+    // 68-95-99.7 rule
+    dev = 3.0 * sqrt(dev);
+
+    printf("size:\t%d\nresult:\t%ld\ntime:\t%.4lf +/- %.4lf\n", SIZE, x, avg, dev);
     return 0;
 }
