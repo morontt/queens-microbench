@@ -88,7 +88,7 @@ int main()
         avg += res[i];
     }
 
-    avg = avg / ITERATIONS;
+    avg /= ITERATIONS;
 
     for (i = 0; i < ITERATIONS; i++) {
         dev += (avg - res[i]) * (avg - res[i]);
