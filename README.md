@@ -10,3 +10,4 @@ Solution of the [n-queens problem](https://en.wikipedia.org/wiki/Eight_queens_pu
 | -                          | -              | clang 3.5.0 |  2.8972 &plusmn; 0.0106 |
 | Intel Core i5-4200U 1.6GHz | Ubuntu 14.04.2 | gcc 4.8.2   |  2.9943 &plusmn; 0.0105 |
 | Intel Celeron M 900MHz     | FreeBSD 10.1   | clang 3.4.1 | 11.3338 &plusmn; 0.2459 |
+| Broadcom BCM2835 700MHz    | Raspbian       | gcc 4.6.3   | 30.2304 &plusmn; 0.0126 |
