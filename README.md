@@ -4,7 +4,7 @@ Solution of the [n-queens problem](https://en.wikipedia.org/wiki/Eight_queens_pu
 
 ## Installation
 
-```
+```shell
 git clone https://github.com/morontt/queens-microbench.git
 cd queens-microbench
 make
