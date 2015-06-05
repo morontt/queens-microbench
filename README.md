@@ -17,7 +17,7 @@ make
 | -------------------------- | -------------- |:--------------:| -----------------------:|
 | Intel Core i5-3570K 3.4GHz | Ubuntu 12.04.5 | gcc 4.6.3      |  2.0410 &plusmn; 0.0091 |
 | Intel Core i5-3427U 1.8GHz | Ubuntu 14.04.2 | gcc 4.8.2      |  2.7090 &plusmn; 0.0094 |
-| -                          | -              | clang 3.5.0    |  2.8972 &plusmn; 0.0106 |
+| Intel Core i5-3427U 1.8GHz | Ubuntu 14.04.2 | clang 3.5.0    |  2.8972 &plusmn; 0.0106 |
 | Intel Core i5-2415M 2.3GHz | MacOS X 10.9.5 | clang 600.0.57 |  2.9634 &plusmn; 0.1005 |
 | Intel Core i5-4200U 1.6GHz | Ubuntu 14.04.2 | gcc 4.8.2      |  2.9943 &plusmn; 0.0105 |
 | Intel Celeron 220   1.2GHz | Ubuntu 14.04.2 | gcc 4.8.2      |  8.4001 &plusmn; 0.0015 |
