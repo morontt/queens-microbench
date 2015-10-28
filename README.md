@@ -17,6 +17,7 @@ make
 | CPU                         | OS              | Compiler       | time (sec)              |
 | --------------------------- | --------------- |:--------------:| -----------------------:|
 | Intel Core i5-3570K  3.4GHz | Ubuntu 12.04.5  | gcc 4.6.3      |  2.0410 &plusmn; 0.0091 |
+| Intel Core i5-3210M  2.5GHz | Ubuntu 14.04.3  | gcc 4.8.4      |  2.5000 &plusmn; 0.0102 |
 | Intel Core i5-3427U  1.8GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  2.7090 &plusmn; 0.0094 |
 | Intel Core i7-3615QM 2.3GHz | MacOS X 10.10.3 | clang 602.0.53 |  2.7965 &plusmn; 0.5371 |
 | Intel Core i5-3427U  1.8GHz | Ubuntu 14.04.2  | clang 3.5.0    |  2.8972 &plusmn; 0.0106 |
