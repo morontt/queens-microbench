@@ -25,6 +25,7 @@ make
 | Intel Core i5-2415M  2.3GHz | MacOS X 10.9.5  | clang 600.0.57 |  2.9634 &plusmn; 0.1005 |
 | Intel Core i5-4200U  1.6GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  2.9943 &plusmn; 0.0105 |
 | Intel Core i3-3110M  2.4GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  3.1878 &plusmn; 0.1100 |
+| AMD Phenom 8450      2.1GHz | Ubuntu 14.04.3  | gcc 4.8.4      |  4.9440 &plusmn; 0.0147 |
 | Intel C2D E4500      2.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  7.2959 &plusmn; 0.6989 |
 | Intel Celeron 220    1.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  8.4001 &plusmn; 0.0015 |
 | Intel Celeron M      900MHz | FreeBSD 10.1    | clang 3.4.1    | 11.3338 &plusmn; 0.2459 |
