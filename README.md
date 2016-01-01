@@ -29,4 +29,5 @@ make
 | Intel C2D E4500      2.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  7.2959 &plusmn; 0.6989 |
 | Intel Celeron 220    1.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  8.4001 &plusmn; 0.0015 |
 | Intel Celeron M      900MHz | FreeBSD 10.1    | clang 3.4.1    | 11.3338 &plusmn; 0.2459 |
-| Broadcom BCM2835     700MHz | Raspbian        | gcc 4.6.3      | 30.2304 &plusmn; 0.0126 |
+| Broadcom BCM2836     900MHz | Raspbian Jessie | gcc 4.9.2      | 20.9343 &plusmn; 5.2217 |
+| Broadcom BCM2835     700MHz | Raspbian Wheezy | gcc 4.6.3      | 30.2304 &plusmn; 0.0126 |
