@@ -2,7 +2,7 @@
 
 Solution of the [n-queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
 
-## Installation
+### Installation
 
 ```shell
 git clone https://github.com/morontt/queens-microbench.git
