@@ -16,6 +16,7 @@ make
 
 | CPU                           | OS              | Compiler       | time (sec)              |
 | ----------------------------- | --------------- |:--------------:| -----------------------:|
+| AMD Ryzen 7 2700X      3.7GHz | Ubuntu 18.04.2  | gcc 7.4.0      |  1.9669 &plusmn; 0.0284 |
 | Intel Core i7-4770     3.4GHz | Debian 7.0      | gcc 4.7.2      |  1.9880 &plusmn; 0.0190 |
 | Intel Core i5-3570K    3.4GHz | Ubuntu 12.04.5  | gcc 4.6.3      |  2.0410 &plusmn; 0.0091 |
 | Intel Core i3-6100     3.7GHz | Mint 18 Sarah   | gcc 5.4.0      |  2.0797 &plusmn; 0.0032 |
