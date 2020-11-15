@@ -33,6 +33,7 @@ make
 | Intel Core i3-3110M    2.4GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  3.1878 &plusmn; 0.1100 |
 | Intel Pentium 2020M    2.4GHz | Ubuntu 14.04.4  | gcc 4.8.4      |  3.2138 &plusmn; 0.3719 |
 | AMD A10-5745M          2.1GHz | Ubuntu 14.04.3  | gcc 4.8.4      |  4.5932 &plusmn; 0.0083 |
+| AMD Athlon 64 X2 4600+ 2.4GHz | Ubuntu 14.04.6  | gcc 4.8.4      |  4.7207 &plusmn; 0.0006 |
 | AMD Phenom X3 8450     2.1GHz | Ubuntu 14.04.3  | gcc 4.8.4      |  4.9440 &plusmn; 0.0147 |
 | Intel C2D E4500        2.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  7.2959 &plusmn; 0.6989 |
 | Intel Celeron 220      1.2GHz | Ubuntu 14.04.2  | gcc 4.8.2      |  8.4001 &plusmn; 0.0015 |
