@@ -22,6 +22,7 @@ make
 | Intel Core i5-3570K    3.4GHz | Ubuntu 12.04.5  | gcc 4.6.3      |  2.0410 &plusmn; 0.0091 |
 | Intel Core i3-6100     3.7GHz | Mint 18 Sarah   | gcc 5.4.0      |  2.0797 &plusmn; 0.0032 |
 | Intel Core i7-8550U    1.8GHz | Ubuntu 18.04.4  | gcc 7.5.0      |  2.1298 &plusmn; 0.1326 |
+| Intel Pentium Gold 7505 2.0GHz | Ubuntu 22.04   | gcc 11.2.0     |  2.1683 &plusmn; 0.0030 |
 | Intel Core i3-3220     3.3GHz | Ubuntu 18.04.3  | gcc 7.4.0      |  2.3500 &plusmn; 0.0074 |
 | Intel Core i3-2100     3.1GHz | Ubuntu 12.04.4  | gcc 4.6.3      |  2.4830 &plusmn; 0.0177 |
 | Intel Core i5-3210M    2.5GHz | Ubuntu 14.04.3  | gcc 4.8.4      |  2.5000 &plusmn; 0.0102 |
