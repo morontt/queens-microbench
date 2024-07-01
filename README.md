@@ -16,6 +16,7 @@ make
 
 | CPU                           | OS              | Compiler       | time (sec)              |
 | ----------------------------- | --------------- |:--------------:| -----------------------:|
+| Apple M2                      | macOS 14.5      | clang 1500.3.9 |  1.4811 &plusmn; 0.0339 |
 | Intel Core i7-10750H   2.6GHz | Ubuntu 22.04    | gcc 11.2.0     |  1.6292 &plusmn; 0.0349 |
 | AMD Ryzen 7 2700X      3.7GHz | Ubuntu 18.04.2  | gcc 7.4.0      |  1.9669 &plusmn; 0.0284 |
 | Intel Core i7-4770     3.4GHz | Debian 7.0      | gcc 4.7.2      |  1.9880 &plusmn; 0.0190 |
